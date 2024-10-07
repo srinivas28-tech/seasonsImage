@@ -1,0 +1,63 @@
+.imageContainer{
+    height: 500px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Image{
+    height: 500px;
+    width: 500px;
+    
+}
+button{
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px;
+    height: 50px;
+    width: 100px;
+}
+
+.spring-button {
+    background-color: #3a7333;
+  }
+  
+  .summer-button {
+    background-color: #e0bb00;
+  }
+  
+  .autumn-button {
+    background-color: #b04400;
+  }
+  
+  .winter-button {
+    background-color: #0f7cb6;
+  }
+  
+.mainContainer{
+    display: flex;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+.img{
+    height: 250px;
+    width:250px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding : 0px;
+}
